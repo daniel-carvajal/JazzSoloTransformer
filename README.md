@@ -1,5 +1,9 @@
 # JazzSoloTransformer
 
+Transformer built with Pytorch that generates MIDI files of jazz piano solos.
+
+This Relative Attention Transformer is based on the paper [Music Transformer](https://arxiv.org/abs/1809.04281) and was trained on the Weimar Jazz Database [(WJazzD)](https://jazzomat.hfm-weimar.de/dbformat/dboverview.html). Trained using tools from [music-transformer](https://github.com/spectraldoy/music-transformer). It uses the vocabulary explained in [This Time with Feeling:
+Learning Expressive Musical Performance](https://arxiv.org/pdf/1808.03715.pdf).
 
 ### 5 epoch, 512 length:
 
